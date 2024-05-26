@@ -81,8 +81,8 @@
         <dd><a href="https://www.linkedin.com/in/kunjun-li">LinkedIn</a></dd>
         <dd><a href="https://github.com/StargazerX0">GitHub</a></dd>
       </div>
-      <div id="location"></div>
-      <div id="visitors"></div>
+      <div id="clustrmaps-widget"></div>
+      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=3QhjnVV_DwriZkiF9fZuMBt5W0k6fQMoGSv2BNl8Vpo&cl=ffffff&w=a"></script>
     </div>
 
     <!-- Publications -->
@@ -102,46 +102,6 @@
   </div>
 </div>
 <!-- /.container -->
-
-<script>
-  $(document).ready(function() {
-    $.get("https://ipinfo.io?token=5755ce45b0304c", function(response) {
-      const visitorData = {
-        ip: response.ip,
-        city: response.city,
-        region: response.region,
-        country: response.country
-      };
-
-      // Display visitor location
-      $('#location').html("You are visiting from: " + response.city + ", " + response.region + ", " + response.country);
-
-      // Log visitor to the backend
-      $.ajax({
-        url: 'http://localhost:5000/log_visitor',
-        type: 'POST',
-        contentType: 'application/json',
-        data: JSON.stringify(visitorData),
-        success: function(result) {
-          console.log(result);
-        },
-        error: function(error) {
-          console.error('Error logging visitor:', error);
-        }
-      });
-    }, "jsonp");
-
-    // Get and display all visitors
-    $.get('http://localhost:5000/get_visitors', function(response) {
-      let visitorsHtml = '<h3>Visitors</h3><ul>';
-      response.forEach(visitor => {
-        visitorsHtml += `<li>${visitor.city}, ${visitor.region}, ${visitor.country} - ${visitor.timestamp}</li>`;
-      });
-      visitorsHtml += '</ul>';
-      $('#visitors').html(visitorsHtml);
-    });
-  });
-</script>
 
 </body>
 </html>
