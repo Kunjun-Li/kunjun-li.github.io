@@ -14,6 +14,11 @@
       font-size: 1.2em;
       color: #333;
     }
+    #visitors {
+      margin-top: 20px;
+      font-size: 1.2em;
+      color: #333;
+    }
   </style>
 </head>
 <body>
@@ -77,6 +82,7 @@
         <dd><a href="https://github.com/StargazerX0">GitHub</a></dd>
       </div>
       <div id="location"></div>
+      <div id="visitors"></div>
     </div>
 
     <!-- Publications -->
@@ -100,9 +106,39 @@
 <script>
   $(document).ready(function() {
     $.get("https://ipinfo.io?token=5755ce45b0304c", function(response) {
+      const visitorData = {
+        ip: response.ip,
+        city: response.city,
+        region: response.region,
+        country: response.country
+      };
+
+      // Display visitor location
       $('#location').html("You are visiting from: " + response.city + ", " + response.region + ", " + response.country);
-    }, "jsonp").fail(function() {
-      $('#location').html("Unable to retrieve location data.");
+
+      // Log visitor to the backend
+      $.ajax({
+        url: 'http://localhost:5000/log_visitor',
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(visitorData),
+        success: function(result) {
+          console.log(result);
+        },
+        error: function(error) {
+          console.error('Error logging visitor:', error);
+        }
+      });
+    }, "jsonp");
+
+    // Get and display all visitors
+    $.get('http://localhost:5000/get_visitors', function(response) {
+      let visitorsHtml = '<h3>Visitors</h3><ul>';
+      response.forEach(visitor => {
+        visitorsHtml += `<li>${visitor.city}, ${visitor.region}, ${visitor.country} - ${visitor.timestamp}</li>`;
+      });
+      visitorsHtml += '</ul>';
+      $('#visitors').html(visitorsHtml);
     });
   });
 </script>
