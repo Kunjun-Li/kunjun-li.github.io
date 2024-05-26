@@ -101,7 +101,9 @@
   $(document).ready(function() {
     $.get("https://ipinfo.io?token=5755ce45b0304c", function(response) {
       $('#location').html("You are visiting from: " + response.city + ", " + response.region + ", " + response.country);
-    }, "jsonp");
+    }, "jsonp").fail(function() {
+      $('#location').html("Unable to retrieve location data.");
+    });
   });
 </script>
 
