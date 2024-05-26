@@ -25,5 +25,23 @@
     </div>
   </div>
 </div>
+
+<!-- Debugging Script to Check if ClusterMap Script Loads Correctly -->
+<script>
+  window.addEventListener('load', function() {
+    const scriptElement = document.getElementById('clustrmaps');
+    if (!scriptElement) {
+      console.error('ClusterMap script element not found');
+    } else {
+      scriptElement.onerror = function() {
+        console.error('Error loading ClusterMap script');
+      };
+      scriptElement.onload = function() {
+        console.log('ClusterMap script loaded successfully');
+      };
+    }
+  });
+</script>
+
 </body>
 </html>
