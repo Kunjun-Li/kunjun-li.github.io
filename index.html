@@ -15,7 +15,10 @@
   </style>
   <script>
     $(document).ready(function() {
-      $('#clustrmaps-widget').hide();
+      $('#clustrmaps-widget').hide(); // Hide the widget initially
+      setTimeout(function() {
+        $('#clustrmaps-widget').hide(); // Hide the widget again after it loads
+      }, 1000); // Adjust the timeout if needed
     });
   </script>
 </head>
