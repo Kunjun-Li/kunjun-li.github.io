@@ -51,9 +51,11 @@ Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span st
 </div>
 </div>
 
+
 <ul>
   <li>
-   <a href="https://ieeexplore.ieee.org/document/10577362"> DemoAbstract: PixelGen: Rethinking Embedded Camera Systems for Mixed-Reality</a>. <strong>Kunjun Li</strong>, Manoj Gulati, Dhairya Shah, Steven Waskito, Shantanu Chakrabarty and Ambuj Varshney. <strong>IPSN 2024</strong>. 
+   <a href="https://ieeexplore.ieee.org/document/10577362"> DemoAbstract: PixelGen: Rethinking Embedded Camera Systems for Mixed-Reality</a>.
+    <strong>Kunjun Li</strong>, Manoj Gulati, Dhairya Shah, Steven Waskito, Shantanu Chakrabarty and Ambuj Varshney. <strong>IPSN 2024</strong>. 
     <div style="display: inline">
         <a href="https://ieeexplore.ieee.org/document/10577362"> [paper]</a>
         <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" >[abstract]</a>
