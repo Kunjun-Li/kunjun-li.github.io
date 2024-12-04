@@ -1,4 +1,4 @@
-# main links links
+# main links
 main:
   - title: "About Me"
     url: "/#about-me"
@@ -13,4 +13,4 @@ main:
     url: "/projects/"
 
   - title: "Resume"
-  url: "/images/Resume.pdf"
+    url: "/images/Resume.pdf"
