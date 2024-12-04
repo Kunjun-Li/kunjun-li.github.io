@@ -24,7 +24,7 @@ I'm currently a third-year Computer Engineering student at [National University 
 
 
 # 🔥 News
-- *2024.05*: &nbsp;PixelGen wins [ACM/IEEE IPSN 2024] (https://ipsn.acm.org/2024/awards.html) Best Demonstration Runner-Up award!🥳🥳 
+- *2024.05*: &nbsp;PixelGen wins [ACM/IEEE IPSN 2024](https://ipsn.acm.org/2024/awards.html) Best Demonstration Runner-Up award!🥳🥳 
 
 # 📝 Publications 
 
