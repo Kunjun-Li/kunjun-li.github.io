@@ -34,7 +34,7 @@ I'm currently a third-year Computer Engineering student at [National University 
 
 [**TinyFusion: Diffusion Transformers Learned Shallow**](- A learnable depth pruning method for diffusion transformers) <img src='https://img.shields.io/github/stars/VainF/TinyFusion.svg?style=social&label=Star' alt="sym" height="100%">
 
-Gongfan Fang, **Kunjun Li**, Xinyin Ma, Xinchao Wang
+Gongfan Fang*, **Kunjun Li***, Xinyin Ma, Xinchao Wang
 
 - Directly optimizes the recoverability of the pruned model, which ensures better performance after fine-tuning.
 - The trainable parameters is only ~0.9% of the original model, making the pruning process highly efficient.
