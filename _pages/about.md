@@ -29,10 +29,10 @@ I'm currently a third-year Computer Engineering student at [National University 
 # 📝 Publications 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='https://github.com/VainF/TinyFusion/blob/main/assets/framework.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='https://github.com/VainF/TinyFusion/raw/main/assets/framework.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**TinyFusion: Diffusion Transformers Learned Shallow**](- A learnable depth pruning method for diffusion transformers) <img src='https://img.shields.io/github/stars/horseee/Learning-to-Cache.svg?style=social&label=Star' alt="sym" height="100%">
+[**TinyFusion: Diffusion Transformers Learned Shallow**](- A learnable depth pruning method for diffusion transformers) <img src='https://img.shields.io/github/stars/VainF/TinyFusion.svg?style=social&label=Star' alt="sym" height="100%">
 
 Gongfan Fang, **Kunjun Li**, Xinyin Ma, Xinchao Wang
 
