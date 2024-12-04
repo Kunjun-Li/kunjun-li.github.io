@@ -66,23 +66,3 @@ Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span st
   </li>
   
 </ul>
-
-
-
-<!-- Statcounter code for personal website
-http://horseee.github.io on Google Sites (new) -->
-<script type="text/javascript">
-var sc_project=12946013; 
-var sc_invisible=1; 
-var sc_security="08b61411"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
-<noscript><div class="statcounter"><a title="website
-statistics" href="https://statcounter.com/"
-target="_blank"><img class="statcounter"
-src="https://c.statcounter.com/12946013/0/08b61411/1/"
-alt="website statistics"
-referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->
