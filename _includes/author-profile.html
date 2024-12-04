@@ -20,7 +20,10 @@
         <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
       {% endif %}
       {% if author.email %}
-        <li><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ author.email }}</a></li>
+        <li>
+          <i class="fas fa-fw fa-envelope" aria-hidden="true"></i> 
+          <a href="mailto:{{ author.email }}">{{ author.email }}</a>
+        </li>
       {% endif %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
