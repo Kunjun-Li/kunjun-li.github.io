@@ -51,7 +51,7 @@ Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span st
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='https://github.com/weiserlab/PixelGen/raw/main/assets/banner.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IPSN 2024</div><img src='https://github.com/weiserlab/PixelGen/raw/main/assets/banner.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**PixelGen: Rethinking Embedded Camera Systems for Mixed-Reality**](- A novel embedded camera system for mixed reality)
@@ -61,8 +61,8 @@ Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span st
 - Novel representation of the surroundings from invisible signal.
 
 <div style="display: inline">
-    <a href="https://ieeexplore.ieee.org/document/10577362"> <strong>[paper]</strong></a>
-    <a href="https://github.com/weiserlab/PixelGen> <strong>[code]</strong></a>
+    <a href="https://ieeexplore.ieee.org/document/10577362"><strong>[paper]</strong></a>
+    <a href="https://github.com/weiserlab/PixelGen"><strong>[code]</strong></a>
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
         <p> A confluence of advances in several fields has led to the emergence of mixed-reality headsets. They can enable us to interact with and visualize our environments in novel ways. Nonetheless, mixed-reality headsets are constrained today as their camera systems only capture a narrow part of the visible spectrum. Our environment contains rich information that cameras do not capture. It includes phenomena captured through sensors, electromagnetic fields beyond visible light, acoustic emissions, and magnetic fields. We demonstrate our ongoing work, PixelGen, to redesign cameras for low power consumption and to be able to visualize our environments in a novel manner, making some of the invisible phenomena visible. Pixel-Gen combines low-bandwidth sensors with a monochrome camera to capture a rich representation of the world. This design choice ensures information is communicated energy-efficiently. This information is then combined with diffusion-based image models to generate unique representations of the environment, visualizing the otherwise invisible fields. We demonstrate that together with a mixed reality headset, it enables us to observe the world uniquely. </p>
