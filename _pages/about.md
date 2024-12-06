@@ -32,7 +32,7 @@ I'm currently a third-year Computer Engineering student at [National University 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='https://github.com/VainF/TinyFusion/raw/main/assets/framework.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**TinyFusion: Diffusion Transformers Learned Shallow**](- A learnable depth pruning method for diffusion transformers) <img src='https://img.shields.io/github/stars/VainF/TinyFusion.svg?style=social&label=Star' alt="sym" height="100%">
+**TinyFusion: Diffusion Transformers Learned Shallow**(- A learnable depth pruning method for diffusion transformers) <img src='https://img.shields.io/github/stars/VainF/TinyFusion.svg?style=social&label=Star' alt="sym" height="100%">
 
 Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span style="font-size:smaller;">*</span></strong>, Xinyin Ma, Xinchao Wang
 - Directly optimizes the recoverability of the pruned model, which ensures better performance after fine-tuning.
@@ -54,14 +54,14 @@ Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span st
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IPSN 2024</div><img src='https://github.com/weiserlab/PixelGen/raw/main/assets/banner.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**PixelGen: Rethinking Embedded Camera Systems for Mixed-Reality**](- A novel embedded camera system for mixed reality)
+**PixelGen: Rethinking Embedded Camera Systems for Mixed-Reality**(- A novel embedded camera system for mixed reality)
 
 <strong>Kunjun Li</strong>, Manoj Gulati, Dhairya Shah, Steven Waskito, Shantanu Chakrabarty and Ambuj Varshney.
 - Generate High Resolution RGB images from Monochrome and sensor data.
 - Novel representation of the surroundings from invisible signal.
 
 <div style="display: inline">
-    <a href="https://ieeexplore.ieee.org/document/10577362"><strong>[paper]</strong></a>
+    <a href="https://dl.acm.org/doi/10.1145/3636534.3696216"><strong>[paper]</strong></a>
     <a href="https://github.com/weiserlab/PixelGen"><strong>[code]</strong></a>
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
