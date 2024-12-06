@@ -56,7 +56,7 @@ Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span st
 
 **PixelGen: Rethinking Embedded Camera Systems for Mixed-Reality**(- A novel embedded camera system for mixed reality)
 
-<strong>Kunjun Li</strong>, Manoj Gulati, Dhairya Shah, Steven Waskito, Shantanu Chakrabarty and Ambuj Varshney.
+<strong>Kunjun Li</strong>, Manoj Gulati, Dhairya Shah, Steven Waskito, Shantanu Chakrabarty and Ambuj Varshney
 - Generate High Resolution RGB images from Monochrome and sensor data.
 - Novel representation of the surroundings from invisible signal.
 
