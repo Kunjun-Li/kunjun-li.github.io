@@ -20,7 +20,7 @@ redirect_from:
 Hello there! 
 
 Welcome to Kunjun Li's website!
-I'm currently a third-year Computer Engineering student at [National University of Singapore](https://nus.edu.sg/) from August 2022. My research focuses on Efficient Deep Learning and Generative AI.
+I'm currently a third-year Computer Engineering student at [National University of Singapore](https://nus.edu.sg/) from August 2022. My research focuses on Efficient Deep Learning and High Performance Computing.
 
 
 # 🔥 News
