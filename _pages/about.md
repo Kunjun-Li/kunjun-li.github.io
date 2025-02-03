@@ -20,7 +20,7 @@ redirect_from:
 Hello there! 
 
 Welcome to Kunjun Li's website!
-I'm currently a third-year Computer Engineering student at [National University of Singapore](https://nus.edu.sg/) from August 2022. My research focuses on Efficient Deep Learning and High Performance Computing.
+I'm currently a third-year Computer Engineering student at [National University of Singapore](https://nus.edu.sg/) from August 2022. My research focuses on Efficient Generative AI.
 
 
 # 🔥 News
@@ -32,7 +32,8 @@ I'm currently a third-year Computer Engineering student at [National University 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='https://github.com/VainF/TinyFusion/raw/main/assets/framework.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**TinyFusion: Diffusion Transformers Learned Shallow**(- A learnable depth pruning method for diffusion transformers) <img src='https://img.shields.io/github/stars/VainF/TinyFusion.svg?style=social&label=Star' alt="sym" height="100%">
+**TinyFusion: Diffusion Transformers Learned Shallow**  
+| *SOTA learnable depth pruning for DiTs
 
 Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span style="font-size:smaller;">*</span></strong>, Xinyin Ma, Xinchao Wang
 - Directly optimizes the recoverability of the pruned model, which ensures better performance after fine-tuning.
@@ -51,10 +52,11 @@ Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span st
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IPSN 2024</div><img src='https://github.com/weiserlab/PixelGen/raw/main/assets/banner.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobiCom 2024</div><img src='https://github.com/weiserlab/PixelGen/raw/main/assets/banner.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**PixelGen: Rethinking Embedded Camera Systems for Mixed-Reality**(- A novel embedded camera system for mixed reality)
+**PixelGen: Rethinking Embedded Camera Systems for Mixed-Reality**  
+| *Novel embedded camera system for mixed reality*
 
 <strong>Kunjun Li</strong>, Manoj Gulati, Dhairya Shah, Steven Waskito, Shantanu Chakrabarty and Ambuj Varshney
 - Generate High Resolution RGB images from Monochrome and sensor data.
@@ -71,4 +73,3 @@ Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span st
 
 </div>
 </div>
-
