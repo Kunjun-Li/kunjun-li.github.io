@@ -33,7 +33,7 @@ I'm currently a third-year Computer Engineering student at [National University 
 <div class='paper-box-text' markdown="1">
 
 **TinyFusion: Diffusion Transformers Learned Shallow**  
-| *SOTA learnable depth pruning for DiTs
+| *SOTA learnable depth pruning for DiTs*
 
 Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span style="font-size:smaller;">*</span></strong>, Xinyin Ma, Xinchao Wang
 - Directly optimizes the recoverability of the pruned model, which ensures better performance after fine-tuning.
