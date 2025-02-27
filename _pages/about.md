@@ -37,7 +37,7 @@ I'm currently a third-year Computer Engineering student at [National University 
 **TinyFusion: Diffusion Transformers Learned Shallow**  
 | *SOTA learnable depth pruning for DiTs*
 
-Gongfan Fang<sup>*</sup>, <strong>Kunjun Li<sup>*</sup></strong>, Xinyin Ma, Xinchao Wang  *(Equal-first author)*
+Gongfan Fang*, **Kunjun Li***, Xinyin Ma, Xinchao Wang *(Equal-first author)*
 - Directly optimizes the recoverability of the pruned model, which ensures better performance after fine-tuning.
 - Achieveing a 2x speedup using less than 7% of the original pre-training cost with a FID score of 2.86.
 
