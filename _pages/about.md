@@ -24,18 +24,20 @@ I'm currently a third-year Computer Engineering student at [National University 
 
 
 # 🔥 News
-- *2024.05*: &nbsp;PixelGen wins [ACM/IEEE IPSN 2024](https://ipsn.acm.org/2024/awards.html) Best Demonstration Runner-Up award!🥳🥳 
+- *2025.02*: &nbsp; 🥳 [TinyFusion](https://arxiv.org/abs/2412.01199) is accepted by CVPR'25. 
+
+- *2024.05*: &nbsp; 🎉  PixelGen wins [ACM/IEEE IPSN 2024](https://ipsn.acm.org/2024/awards.html) Best Demonstration Runner-Up award. 
 
 # 📝 Publications 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='https://github.com/VainF/TinyFusion/raw/main/assets/framework.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='https://github.com/VainF/TinyFusion/raw/main/assets/framework.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **TinyFusion: Diffusion Transformers Learned Shallow**  
 | *SOTA learnable depth pruning for DiTs*
 
-Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span style="font-size:smaller;">*</span></strong>, Xinyin Ma, Xinchao Wang
+Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span style="font-size:smaller;">*</span></strong>, Xinyin Ma, Xinchao Wang *(Equal-first author)*
 - Directly optimizes the recoverability of the pruned model, which ensures better performance after fine-tuning.
 - The trainable parameters is only ~0.9% of the original model, making the pruning process highly efficient.
 - Achieveing a 2x speedup using less than 7% of the original pre-training cost with a FID score of 2.86.
