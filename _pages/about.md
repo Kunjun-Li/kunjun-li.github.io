@@ -37,9 +37,8 @@ I'm currently a third-year Computer Engineering student at [National University 
 **TinyFusion: Diffusion Transformers Learned Shallow**  
 | *SOTA learnable depth pruning for DiTs*
 
-Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span style="font-size:smaller;">*</span></strong>, Xinyin Ma, Xinchao Wang *(Equal-first author)*
+Gongfan Fang<span style="font-size:smaller;">*, <strong>Kunjun Li<span style="font-size:smaller;">*</span></strong>, Xinyin Ma, Xinchao Wang  (Equal-first author)*
 - Directly optimizes the recoverability of the pruned model, which ensures better performance after fine-tuning.
-- The trainable parameters is only ~0.9% of the original model, making the pruning process highly efficient.
 - Achieveing a 2x speedup using less than 7% of the original pre-training cost with a FID score of 2.86.
 
 <div style="display: inline">
