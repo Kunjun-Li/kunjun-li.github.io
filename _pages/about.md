@@ -24,7 +24,9 @@ I'm currently a third-year Computer Engineering student at [National University 
 
 
 # 🔥 News
-- *2025.02*: &nbsp; 🥳 [TinyFusion](https://arxiv.org/abs/2412.01199) is accepted by CVPR'25. 
+- *2025.04*: &nbsp; 🚀 [TinyFusion](https://arxiv.org/abs/2412.01199) is selected as CVPR 2025 Highlight.
+  
+- *2025.01*: &nbsp; 🥳 Our team won the Second Place of [2025 SkiTB Visual Tracking Challenge](https://sites.google.com/unitn.it/cv4ws-wacv2025/skitb-challenge?authuser=0).
 
 - *2024.05*: &nbsp; 🎉  PixelGen wins [ACM/IEEE IPSN 2024](https://ipsn.acm.org/2024/awards.html) Best Demonstration Runner-Up award. 
 
@@ -35,7 +37,7 @@ I'm currently a third-year Computer Engineering student at [National University 
 <div class='paper-box-text' markdown="1">
 
 **TinyFusion: Diffusion Transformers Learned Shallow**  
-| *SOTA learnable depth pruning for DiTs*
+CVPR’25 Highlight (3%) | Tiny DiTs at 7% Training Costs | 2x Faster Inference
 
 Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span style="font-size:smaller;">*</span></strong>, Xinyin Ma, Xinchao Wang <em>(Equal-first author)</em>
 - Directly optimizes the recoverability of the pruned model, which ensures better performance after fine-tuning.
