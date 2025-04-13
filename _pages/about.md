@@ -28,6 +28,8 @@ I'm currently a third-year Computer Engineering student at [National University 
   
 - *2025.01*: &nbsp; 🥳 Our team won the Second Place of [2025 SkiTB Visual Tracking Challenge](https://sites.google.com/unitn.it/cv4ws-wacv2025/skitb-challenge?authuser=0).
 
+- *2025.01*: &nbsp; ⛵ Start my exchange journey at University of Washington!
+
 - *2024.05*: &nbsp; 🎉  PixelGen wins [ACM/IEEE IPSN 2024](https://ipsn.acm.org/2024/awards.html) Best Demonstration Runner-Up award. 
 
 # 📝 Publications 
