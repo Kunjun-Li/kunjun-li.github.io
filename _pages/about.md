@@ -42,12 +42,12 @@ I'm currently a third-year Computer Engineering student at [National University 
 **Memory-Efficient Visual Autoregressive Modeling with Scale-Aware KV Cache Compression**  
 
 <strong>Kunjun Li</strong>, Zigeng Chen, Cheng-Yen Yang, Jenq-Neng Hwang
-- Scale-Aware KV cache tailored for VAR, reducing inference memory from 85 GB to 8.5 GB
-- Lossless Compression
+- Scale-Aware KV cache tailored for next-scale prediction paradigm in VAR architectures
+- Lossless Compression while reducing inference memory from 85 GB to 8.5 GB
 
 <div style="display: inline">
-    <a href="https://arxiv.org/abs/2412.01199"> <strong>[paper]</strong></a>
-    <a href="https://github.com/VainF/TinyFusion"> <strong>[code]</strong></a>
+    <a href="https://arxiv.org/abs/2505.19602"> <strong>[paper]</strong></a>
+    <a href="https://github.com/StargazerX0/ScaleKV"> <strong>[code]</strong></a>
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
         <p> Visual Autoregressive (VAR) modeling has garnered significant attention for its innovative next-scale prediction approach, which yields substantial improvements in efficiency, scalability, and zero-shot generalization. Nevertheless, the coarse-to-fine methodology inherent in VAR results in exponential growth of the KV cache during inference, causing considerable memory consumption and computational redundancy. To address these bottlenecks, we introduce ScaleKV, a novel KV cache compression framework tailored for VAR architectures. ScaleKV leverages two critical observations: varying cache demands across transformer layers and distinct attention patterns at different scales. Based on these insights, ScaleKV categorizes transformer layers into two functional groups: drafters and refiners. Drafters exhibit dispersed attention across multiple scales, thereby requiring greater cache capacity. Conversely, refiners focus attention on the current token map to process local details, consequently necessitating substantially reduced cache capacity. ScaleKV optimizes the multi-scale inference pipeline by identifying scale-specific drafters and refiners, facilitating differentiated cache management tailored to each scale. Evaluation on the state-of-the-art text-to-image VAR model family, Infinity, demonstrates that our approach effectively reduces the required KV cache memory to 10% while preserving pixel-level fidelity. </p>
