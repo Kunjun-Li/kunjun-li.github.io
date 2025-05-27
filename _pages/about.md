@@ -39,10 +39,10 @@ I'm currently a third-year Computer Engineering student at [National University 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='https://github.com/StargazerX0/ScaleKV/raw/main/assets/teaser.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Memory-Efficient Visual Autoregressive Modeling with Scale-Aware KV Cache Compression**  
+**Memory-Efficient Visual Autoregressive Modeling with Scale-Aware KV Cache**  
 
 <strong>Kunjun Li</strong>, Zigeng Chen, Cheng-Yen Yang, Jenq-Neng Hwang
-- Scale-Aware KV cache tailored for next-scale prediction paradigm in VAR architectures
+- Scale-Aware KV cache tailored for next-scale prediction paradigm in VAR
 - Lossless Compression while reducing inference memory from 85 GB to 8.5 GB
 
 <div style="display: inline">
