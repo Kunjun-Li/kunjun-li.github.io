@@ -24,7 +24,7 @@ I'm currently a third-year Computer Engineering student at [National University 
 
 
 # 🔥 News
-- *2025.04*: &nbsp; 🚀 [TinyFusion(https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_TinyFusion_Diffusion_Transformers_Learned_Shallow_CVPR_2025_paper.pdf) is selected as CVPR 2025 Highlight.
+- *2025.04*: &nbsp; 🚀 [TinyFusion](https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_TinyFusion_Diffusion_Transformers_Learned_Shallow_CVPR_2025_paper.pdf) is selected as CVPR 2025 Highlight.
   
 - *2025.01*: &nbsp; 🥳 Our team won the Second Place of [2025 SkiTB Visual Tracking Challenge](https://sites.google.com/unitn.it/cv4ws-wacv2025/skitb-challenge?authuser=0).
 
