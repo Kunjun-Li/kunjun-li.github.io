@@ -24,7 +24,7 @@ I'm currently a third-year Computer Engineering student at [National University 
 
 
 # 🔥 News
-- *2025.04*: &nbsp; 🚀 [TinyFusion](https://arxiv.org/abs/2412.01199) is selected as CVPR 2025 Highlight.
+- *2025.04*: &nbsp; 🚀 [TinyFusion(https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_TinyFusion_Diffusion_Transformers_Learned_Shallow_CVPR_2025_paper.pdf) is selected as CVPR 2025 Highlight.
   
 - *2025.01*: &nbsp; 🥳 Our team won the Second Place of [2025 SkiTB Visual Tracking Challenge](https://sites.google.com/unitn.it/cv4ws-wacv2025/skitb-challenge?authuser=0).
 
@@ -66,7 +66,7 @@ Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span st
 - Achieveing a 2x speedup using less than 7% of the original pre-training cost with a FID score of 2.86.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/abs/2412.01199"> <strong>[paper]</strong></a>
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_TinyFusion_Diffusion_Transformers_Learned_Shallow_CVPR_2025_paper.pdf"> <strong>[paper]</strong></a>
     <a href="https://github.com/VainF/TinyFusion"> <strong>[code]</strong></a>
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
