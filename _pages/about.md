@@ -22,8 +22,6 @@ Hello there!
 Welcome to Kunjun Li's website!
 I'm currently a third-year Computer Engineering student at [National University of Singapore](https://nus.edu.sg/) from August 2022. My research focuses on Efficient Generative AI.
 
-<span style="color: red;">Looking for Fall 2026 PhD opportunities on Efficient Generative AI, feel free to contact!</span>
-
 
 # 🔥 News
 - *2025.04*: &nbsp; 🚀 [TinyFusion](https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_TinyFusion_Diffusion_Transformers_Learned_Shallow_CVPR_2025_paper.pdf) is selected as CVPR 2025 Highlight.
