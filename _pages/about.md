@@ -20,11 +20,11 @@ redirect_from:
 Hello there! 
 
 Welcome to Kunjun Li's website!
-I'm currently a third-year Computer Engineering student at [National University of Singapore](https://nus.edu.sg/) from August 2022. My research focuses on Efficient Generative AI.
+I'm currently a final-year undergraduate student [National University of Singapore (NUS)](https://nus.edu.sg/). My research focuses on Efficient Generative AI.
 
 
 # 🔥 News
-- *2025.04*: &nbsp;  🥳 [ScaleKV](https://arxiv.org/pdf/2505.19602) is accepted to NeurIPS 2025!
+- *2025.09*: &nbsp;  🥳 [ScaleKV](https://arxiv.org/pdf/2505.19602) is accepted to NeurIPS 2025!
 
 - *2025.04*: &nbsp; 🚀 [TinyFusion](https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_TinyFusion_Diffusion_Transformers_Learned_Shallow_CVPR_2025_paper.pdf) is selected as CVPR 2025 Highlight.
   
