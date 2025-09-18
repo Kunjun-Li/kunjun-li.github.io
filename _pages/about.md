@@ -24,9 +24,11 @@ I'm currently a third-year Computer Engineering student at [National University 
 
 
 # 🔥 News
+- *2025.04*: &nbsp;  🥳 [ScaleKV](https://arxiv.org/pdf/2505.19602) is accepted to NeurIPS 2025!
+
 - *2025.04*: &nbsp; 🚀 [TinyFusion](https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_TinyFusion_Diffusion_Transformers_Learned_Shallow_CVPR_2025_paper.pdf) is selected as CVPR 2025 Highlight.
   
-- *2025.01*: &nbsp; 🥳 Our team won the Second Place of [2025 SkiTB Visual Tracking Challenge](https://sites.google.com/unitn.it/cv4ws-wacv2025/skitb-challenge?authuser=0).
+- *2025.01*: &nbsp; 🌟 Our team won the Second Place of [2025 SkiTB Visual Tracking Challenge](https://sites.google.com/unitn.it/cv4ws-wacv2025/skitb-challenge?authuser=0).
 
 - *2025.01*: &nbsp; ⛵ Start my exchange journey at University of Washington!
 
@@ -34,7 +36,7 @@ I'm currently a third-year Computer Engineering student at [National University 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='https://github.com/StargazerX0/ScaleKV/raw/main/assets/teaser.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='https://github.com/StargazerX0/ScaleKV/raw/main/assets/teaser.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Memory-Efficient Visual Autoregressive Modeling with Scale-Aware KV Cache**  
