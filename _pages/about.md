@@ -20,7 +20,7 @@ redirect_from:
 Hello there! 
 
 Welcome to Kunjun Li's website!
-I'm currently a final-year undergraduate student [National University of Singapore (NUS)](https://nus.edu.sg/). Currently, I am a research intern at Princeton University, supervised by [Prof. Zhuang Liu](http://liuzhuang13.github.io). I also work closely with [Prof. Jenq-Neng Hwang](https://people.ece.uw.edu/hwang/) from UW and [Prof. Xinchao Wang](https://sites.google.com/site/sitexinchaowang/) from NUS.
+I'm a final-year undergraduate student [National University of Singapore (NUS)](https://nus.edu.sg/). Currently, I am a research intern at Princeton University, supervised by [Prof. Zhuang Liu](http://liuzhuang13.github.io). I also work closely with [Prof. Jenq-Neng Hwang](https://people.ece.uw.edu/hwang/) from UW and [Prof. Xinchao Wang](https://sites.google.com/site/sitexinchaowang/) from NUS.
 
 My research focuses on **Efficient Deep Learning**, particularly optimizing training and inference of **LLMs, Diffusion and Multimodal
 Models**. I have been working on sparse attention, network pruning and efficient architectures. My work strives to
