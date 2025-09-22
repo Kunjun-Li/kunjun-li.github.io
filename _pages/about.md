@@ -46,7 +46,7 @@ achieve computational breakthroughs, making deep learning affordable and accessi
 
 <strong>Kunjun Li</strong>, Zigeng Chen, Cheng-Yen Yang, Jenq-Neng Hwang
 - Scale-Aware KV cache tailored for next-scale prediction paradigm in VAR.
-- Lossless Compression while achieving 90\% memory reduction (85 GB → 8.5GB) and substantial speedup.
+- Lossless Compression while achieving 90% memory reduction (85 GB → 8.5GB) and substantial speedup.
 - Facilitating the scaling of VAR models to ultra-high resolutions like 4K.
 
 <div style="display: inline">
