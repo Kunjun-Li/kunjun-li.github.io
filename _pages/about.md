@@ -63,7 +63,7 @@ achieve computational breakthroughs, making deep learning affordable and accessi
 <div class='paper-box-text' markdown="1">
 
 **TinyFusion: Diffusion Transformers Learned Shallow**  
-CVPR’25 Highlight (3%) | Tiny DiTs at 7% Training Costs | 2x Faster Inference
+<span style="color: red; font-weight: bold;">CVPR 2025 Highlighted Paper (3%)</span>
 
 Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span style="font-size:smaller;">*</span></strong>, Xinyin Ma, Xinchao Wang <em>(Equal-first author)</em>
 - Directly optimizes the recoverability of the pruned model, which ensures better performance after fine-tuning.
@@ -81,7 +81,7 @@ Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span st
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobiCom 2024</div><img src='https://github.com/weiserlab/PixelGen/raw/main/assets/banner.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IPSN 2024</div><img src='https://github.com/weiserlab/PixelGen/raw/main/assets/banner.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **PixelGen: Rethinking Embedded Camera Systems for Mixed-Reality**  
