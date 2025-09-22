@@ -42,7 +42,7 @@ achieve computational breakthroughs, making deep learning affordable and accessi
 <div class='paper-box-text' markdown="1">
 
 **Memory-Efficient Visual Autoregressive Modeling with Scale-Aware KV Cache**  
-<span style="color: red;">NeurIPS 2025</span>
+<span style="color: #1e40af;">NeurIPS 2025</span>
 
 <strong>Kunjun Li</strong>, Zigeng Chen, Cheng-Yen Yang, Jenq-Neng Hwang
 - Scale-Aware KV cache tailored for next-scale prediction paradigm in VAR
@@ -64,7 +64,7 @@ achieve computational breakthroughs, making deep learning affordable and accessi
 <div class='paper-box-text' markdown="1">
 
 **TinyFusion: Diffusion Transformers Learned Shallow**  
-<span style="color: red;">CVPR 2025 Highlighted Paper (3%)</span>
+<span style="color: #1e40af;">CVPR 2025 Highlighted Paper (3%)</span>
 
 Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span style="font-size:smaller;">*</span></strong>, Xinyin Ma, Xinchao Wang <em>(Equal-first author)</em>
 - Directly optimizes the recoverability of the pruned model, which ensures better performance after fine-tuning.
@@ -86,7 +86,7 @@ Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span st
 <div class='paper-box-text' markdown="1">
 
 **PixelGen: Rethinking Embedded Camera Systems for Mixed-Reality**  
-<span style="color: red;">ACM/IEEE IPSN 2024 Best Demonstration Runner-Up</span>
+<span style="color: #1e40af;">ACM/IEEE IPSN 2024 Best Demonstration Runner-Up</span>
 
 <strong>Kunjun Li</strong>, Manoj Gulati, Dhairya Shah, Steven Waskito, Shantanu Chakrabarty and Ambuj Varshney
 - Generate High Resolution RGB images from Monochrome and sensor data.
