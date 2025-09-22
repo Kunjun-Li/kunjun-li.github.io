@@ -45,8 +45,9 @@ achieve computational breakthroughs, making deep learning affordable and accessi
 <span style="color: #1e40af;">NeurIPS 2025</span>
 
 <strong>Kunjun Li</strong>, Zigeng Chen, Cheng-Yen Yang, Jenq-Neng Hwang
-- Scale-Aware KV cache tailored for next-scale prediction paradigm in VAR
-- Lossless Compression while reducing inference memory from 85 GB to 8.5 GB
+- Scale-Aware KV cache tailored for next-scale prediction paradigm in VAR.
+- Lossless Compression while achieving 90\% memory reduction (85 GB → 8.5GB) and substantial speedup.
+- Facilitating the scaling of VAR models to ultra-high resolutions like 4K.
 
 <div style="display: inline">
     <a href="https://arxiv.org/abs/2505.19602"> <strong>[paper]</strong></a>
@@ -67,8 +68,9 @@ achieve computational breakthroughs, making deep learning affordable and accessi
 <span style="color: #1e40af;">CVPR 2025 Highlighted Paper (3%)</span>
 
 Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span style="font-size:smaller;">*</span></strong>, Xinyin Ma, Xinchao Wang <em>(Equal-first author)</em>
-- Directly optimizes the recoverability of the pruned model, which ensures better performance after fine-tuning.
-- Achieveing a 2x speedup using less than 7% of the original pre-training cost with a FID score of 2.86.
+- End-to-end learnable depth pruning framework for Diffusion Transformers with 50% model parameters and depth.
+- Achieveing a 2x faster inference with comparable performance.
+- Tiny DiTs at 7% of the original training costs.
 
 <div style="display: inline">
     <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_TinyFusion_Diffusion_Transformers_Learned_Shallow_CVPR_2025_paper.pdf"> <strong>[paper]</strong></a>
