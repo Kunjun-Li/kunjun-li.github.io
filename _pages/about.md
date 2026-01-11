@@ -67,7 +67,7 @@ achieve computational breakthroughs, making deep learning affordable and accessi
 **TinyFusion: Diffusion Transformers Learned Shallow**  
 <span style="color: #1e40af;">CVPR 2025 Highlighted Paper (3%)</span>
 
-Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span style="font-size:smaller;">*</span></strong>, Xinyin Ma, Xinchao Wang <em>(Equal-first author)</em>
+Gongfan Fang<span style="font-size:smaller;">*</span>, <strong>Kunjun Li<span style="font-size:smaller;">*</span></strong>, Xinyin Ma, Xinchao Wang <em>(Co-First Author)</em>
 - End-to-end learnable depth pruning framework for Diffusion Transformers with 50% model parameters and depth.
 - Achieveing a 2x faster inference with comparable performance.
 - Tiny DiTs at 7% of the original training costs.
