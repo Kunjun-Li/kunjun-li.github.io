@@ -50,7 +50,7 @@ achieve computational breakthroughs, making deep learning affordable and accessi
 - Facilitating the scaling of VAR models to ultra-high resolutions like 4K.
 
 <div style="display: inline">
-    <a href="https://openreview.net/pdf/841de5e7edb1f7c7e50df5a45f067dcee2605672.pdf"> <strong>[paper]</strong></a>
+    <a href="https://openreview.net/pdf?id=NFxA2Von7y"> <strong>[paper]</strong></a>
     <a href="https://github.com/StargazerX0/ScaleKV"> <strong>[code]</strong></a>
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
