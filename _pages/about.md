@@ -22,5 +22,10 @@ Hello there!
 Welcome to Kunjun Li's website!
 I'm an incoming PhD student at UC Berkeley, advised by [Prof. Kurt Keutzer](https://keutzer.github.io). Previously, I completed my undergrad in [National University of Singapore](https://nus.edu.sg/).
 
+# 📖 Educations
+- *2026 - Present*, Incoming PhD Student, University of California, Berkeley.
+- *2022 - 2026*, Undergraduate, National University of Singapore, Singapore.
+- *2025.03 - 2025.06*, Exchange Student, University of Washington, Seattle.
+
 <div style="display: inline">
   
