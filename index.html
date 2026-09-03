@@ -1,279 +1,152 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Kunjun Li</title>
-    <link rel="shortcut icon" href="images/berkeley.png" type="image/x-icon">
-    <meta name="author" content="Kunjun Li">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <style>
-        body {
-            font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            font-size: 16px;
-            line-height: 1.5;
-            color: #444;
-            margin: 0;
-            padding: 0;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        .main-container {
-            width: 100%;
-            max-width: 950px; 
-            margin: 0 auto;
-            padding: 60px 20px;
-        }
-
-        .name-container {
-            text-align: center;
-            width: 100%;
-            margin-bottom: 35px;
-        }
-
-        .name-text {
-            font-size: 26px;
-            font-weight: 400;
-            color: #333;
-            letter-spacing: 0.5px;
-        }
-
-        .profile-img {
-            width: 100%;
-            max-width: 290px;
-            border-radius: 0px; 
-            display: block;
-        }
-
-        p {
-            margin-bottom: 22px;
-        }
-
-        a {
-            color: #1a73e8;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .links-bar {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 17px;
-        }
-
-        h2 {
-            font-weight: 400;
-            font-size: 24px;
-            color: #222;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 10px;
-            margin: 60px 0 35px 0;
-        }
-
-        .edu-table {
-            width: 100%;
-            border: 0;
-            border-spacing: 0 40px;
-            border-collapse: separate;
-        }
-
-        .edu-logo {
-            width: 115px;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
-
-        .edu-text {
-            padding-left: 35px;
-            vertical-align: middle;
-        }
-
-        .school-name {
-            font-size: 19px;
-            color: #222;
-            display: block;
-            margin-bottom: 5px;
-        }
-
-        .res-table {
-            width: 100%;
-            border: 0;
-            border-spacing: 0 50px;
-            border-collapse: separate;
-        }
-
-        .paper-thumb-td {
-            width: 38%;
-            vertical-align: top;
-        }
-
-        .paper-thumb {
-            width: 100%;
-            border: none;
-            display: block;
-        }
-
-        .paper-text {
-            padding-left: 35px;
-            vertical-align: top;
-        }
-
-        .papertitle {
-            font-size: 20px;
-            font-weight: 500;
-            color: #222;
-            display: block;
-            margin-bottom: 10px;
-            line-height: 1.25;
-        }
-
-        .author-list {
-            font-size: 16px;
-            color: #444;
-            margin-bottom: 6px;
-            display: block;
-            line-height: 1.4;
-        }
-
-        .author-me {
-            font-weight: 600;
-            color: #222;
-        }
-
-        .venue {
-            font-style: italic;
-            color: #555;
-            font-size: 16px;
-            display: block;
-            margin-bottom: 12px;
-        }
-
-        .paper-links {
-            font-size: 17px;
-        }
-
-        .paper-links a {
-            color: #1a73e8;
-            margin-right: 8px;
-        }
-
-        .misc-list {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            line-height: 1.8;
-            color: #444;
-        }
-
-        .misc-item {
-            margin-bottom: 12px;
-            display: flex;
-            align-items: flex-start;
-        }
-
-        .misc-item:before {
-            content: "•";
-            color: #1a73e8;
-            font-weight: bold;
-            display: inline-block; 
-            width: 1em;
-            margin-left: 5px;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kunjun Li — incoming PhD student at UC Berkeley, working on efficient generative AI and computer vision.">
+  <meta name="author" content="Kunjun Li">
+  <meta name="theme-color" content="#f7faff">
+  <title>Kunjun Li</title>
+  <link rel="icon" href="images/berkeley.png" type="image/png">
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
-
 <body>
-    <div class="main-container">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="wordmark" href="#top" aria-label="Kunjun Li, home">KL<span>.</span></a>
+      <div class="nav-links">
+        <a href="#research">Research</a>
+        <a href="#education">Education</a>
+        <a href="#about">About</a>
+      </div>
+    </nav>
+  </header>
 
-        <table style="width:100%; border:0; border-spacing:0; border-collapse:separate;">
-            <tbody>
-                <tr>
-                    <td style="padding-right:45px; width:62%; vertical-align:top">
-                        <div class="name-container">
-                            <span class="name-text">Kunjun Li</span>
-                        </div>
-                        <p>Hi there! I'm an incoming PhD student at <a href="https://www.berkeley.edu">University of California, Berkeley</a>.</p>
-                        <p>Previously, I completed my undergrad in <a href="https://nus.edu.sg">National University of Singapore</a> with honors, and was an exchange student at University of Washington.</p>
-                        
-                        <div class="links-bar">
-                            <a href="mailto:kunjunli@berkeley.edu">kunjunli@berkeley.edu</a>&nbsp;/&nbsp; 
-                            <a href="https://www.linkedin.com/in/kunjun-li">Linkedin</a>
-                        </div>
-                    </td>
-                    <td style="width:38%; vertical-align:top;">
-                        <img src="images/avatar.jpg" class="profile-img" alt="Kunjun Li">
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+  <main id="main" class="shell">
+    <section class="hero" id="top" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Hello, I&rsquo;m</p>
+        <h1 id="page-title">Kunjun Li</h1>
+        <p class="hero-lede">I am an incoming PhD student at <a href="https://www.berkeley.edu" target="_blank" rel="noreferrer">UC Berkeley</a>, interested in building efficient and scalable generative AI systems.</p>
+        <p>Previously, I graduated with honors from the <a href="https://nus.edu.sg" target="_blank" rel="noreferrer">National University of Singapore</a> and spent a term at the University of Washington as an exchange student.</p>
+        <div class="contact-links" aria-label="Contact and profiles">
+          <a class="contact-primary" href="mailto:kunjunli@berkeley.edu">Email me <span aria-hidden="true">&#8599;</span></a>
+          <a href="https://www.linkedin.com/in/kunjun-li" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/StargazerX0" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+      <figure class="portrait-wrap">
+        <div class="portrait-accent" aria-hidden="true"></div>
+        <img class="portrait" src="images/avatar.jpg" alt="Portrait of Kunjun Li" width="747" height="747">
+        <figcaption>Berkeley, California <span aria-hidden="true">&#183;</span> 2026</figcaption>
+      </figure>
+    </section>
 
-        <h2>Education</h2>
-        <table class="edu-table">
-            <tbody>
-                <tr>
-                    <td style="width:20%; vertical-align:middle;">
-                        <img src="images/berkeley.png" class="edu-logo">
-                    </td>
-                    <td class="edu-text">
-                        <span class="school-name">University of California, Berkeley</span>
-                        2026 - Present <br>
-                        Incoming PhD Student <br>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="width:20%; vertical-align:middle;">
-                        <img src="images/nus.png" class="edu-logo">
-                    </td>
-                    <td class="edu-text">
-                        <span class="school-name">National University of Singapore</span>
-                        2022 - 2026 <br>
-                        Undergraduate Student <br>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="width:20%; vertical-align:middle;">
-                        <img src="images/uw.png" class="edu-logo">
-                    </td>
-                    <td class="edu-text">
-                        <span class="school-name">University of Washington, Seattle</span>
-                        2025.03 - 2025.06 <br>
-                        Exchange Student <br>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+    <section class="section news" aria-labelledby="news-title">
+      <div class="section-heading compact-heading">
+        <p class="section-index" aria-hidden="true">01</p>
+        <h2 id="news-title">News</h2>
+      </div>
+      <ol class="news-list">
+        <li><time datetime="2025-09">Sep 2025</time><span><a href="https://openreview.net/pdf?id=NFxA2Von7y" target="_blank" rel="noreferrer">ScaleKV</a> was accepted to NeurIPS 2025.</span></li>
+        <li><time datetime="2025-04">Apr 2025</time><span><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_TinyFusion_Diffusion_Transformers_Learned_Shallow_CVPR_2025_paper.pdf" target="_blank" rel="noreferrer">TinyFusion</a> was selected as a CVPR 2025 Highlight.</span></li>
+        <li><time datetime="2025-01">Jan 2025</time><span>Our team placed second in the 2025 SkiTB Visual Tracking Challenge.</span></li>
+        <li><time datetime="2024-05">May 2024</time><span><a href="https://ipsn.acm.org/2024/awards.html" target="_blank" rel="noreferrer">PixelGen</a> received the ACM/IEEE IPSN Best Demo Runner-Up Award.</span></li>
+      </ol>
+    </section>
 
-        <h2>Miscellanea</h2>
-        <p style="color: #444; line-height: 1.8;">
-            Beyond study, I am an outdoor enthusiast who loves hiking and exploring nature. 
-            I am also a big fan of sports, particularly basketball and tennis, and I have a passion for photography, 
-            capturing moments and stories through my lens.
-        </p>
+    <section class="section" id="research" aria-labelledby="research-title">
+      <div class="section-heading">
+        <p class="section-index" aria-hidden="true">02</p>
+        <div><h2 id="research-title">Selected Research</h2><p>Efficient models and systems for visual generation.</p></div>
+      </div>
+      <div class="publication-list">
+        <article class="publication featured">
+          <a class="paper-visual" href="https://openreview.net/pdf?id=NFxA2Von7y" target="_blank" rel="noreferrer" aria-label="Read the ScaleKV paper">
+            <span class="venue-badge">NeurIPS 2025</span>
+            <img src="https://raw.githubusercontent.com/StargazerX0/ScaleKV/main/assets/teaser.png" alt="ScaleKV method overview" loading="lazy" decoding="async">
+          </a>
+          <div class="paper-copy">
+            <p class="paper-kicker">Representative work</p>
+            <h3><a href="https://openreview.net/pdf?id=NFxA2Von7y" target="_blank" rel="noreferrer">Memory-Efficient Visual Autoregressive Modeling with Scale-Aware KV Cache</a></h3>
+            <p class="authors"><strong>Kunjun Li</strong>, Zigeng Chen, Cheng-Yen Yang, Jenq-Neng Hwang</p>
+            <p class="venue-line">NeurIPS 2025</p>
+            <p class="paper-summary">Scale-aware cache management reduces KV memory by 90% without quality loss, making visual autoregressive generation faster and practical at resolutions up to 4K.</p>
+            <div class="paper-actions">
+              <a href="https://openreview.net/pdf?id=NFxA2Von7y" target="_blank" rel="noreferrer">Paper <span aria-hidden="true">&#8599;</span></a>
+              <a href="https://github.com/StargazerX0/ScaleKV" target="_blank" rel="noreferrer">Code <span aria-hidden="true">&#8599;</span></a>
+              <details><summary>Abstract</summary><div class="abstract">Visual Autoregressive modeling offers efficient, scalable next-scale prediction, but its coarse-to-fine process produces a rapidly growing KV cache. ScaleKV identifies scale-specific drafters and refiners from their distinct attention patterns, then gives each group differentiated cache capacity. On the Infinity model family, it preserves pixel-level fidelity while reducing KV-cache memory to 10% of the original.</div></details>
+            </div>
+          </div>
+        </article>
 
-        <!-- <h2>Research</h2>
-        <table class="res-table">
-            <tbody>
-                <tr>
-                    <td class="paper-thumb-td">
-                        <img src="images/" class="paper-thumb">
-                    </td>
-                    <td class="paper-text">
-                        <span class="papertitle"></span>
-                        <span class="author-list">
-                            <span class="author-me">Kunjun Li*</span>
-                        </span>
-                        <span class="venue">arXiv 2025</span>
-                        <div class="paper-links">
-                            <a href="#">[paper]</a> <a href="#">[code]</a>
-                        </div>
-                    </td>
-                </tr>
-            </tbody>
-        </table> -->
+        <article class="publication featured">
+          <a class="paper-visual" href="https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_TinyFusion_Diffusion_Transformers_Learned_Shallow_CVPR_2025_paper.pdf" target="_blank" rel="noreferrer" aria-label="Read the TinyFusion paper">
+            <span class="venue-badge">CVPR Highlight</span>
+            <img src="https://raw.githubusercontent.com/VainF/TinyFusion/main/assets/framework.png" alt="TinyFusion framework overview" loading="lazy" decoding="async">
+          </a>
+          <div class="paper-copy">
+            <p class="paper-kicker">Highlighted paper <span aria-hidden="true">&#183;</span> Top 3%</p>
+            <h3><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_TinyFusion_Diffusion_Transformers_Learned_Shallow_CVPR_2025_paper.pdf" target="_blank" rel="noreferrer">TinyFusion: Diffusion Transformers Learned Shallow</a></h3>
+            <p class="authors">Gongfan Fang<sup>*</sup>, <strong>Kunjun Li<sup>*</sup></strong>, Xinyin Ma, Xinchao Wang <span class="equal-note">(co-first author)</span></p>
+            <p class="venue-line">CVPR 2025 Highlight</p>
+            <p class="paper-summary">An end-to-end learnable depth-pruning framework that halves Diffusion Transformer depth and parameters, delivering 2&times; faster inference at only 7% of the original training cost.</p>
+            <div class="paper-actions">
+              <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_TinyFusion_Diffusion_Transformers_Learned_Shallow_CVPR_2025_paper.pdf" target="_blank" rel="noreferrer">Paper <span aria-hidden="true">&#8599;</span></a>
+              <a href="https://github.com/VainF/TinyFusion" target="_blank" rel="noreferrer">Code <span aria-hidden="true">&#8599;</span></a>
+              <details><summary>Abstract</summary><div class="abstract">TinyFusion learns which Diffusion Transformer layers to remove by optimizing a pruned model for recoverability after fine-tuning. Differentiable sampling and a co-optimized parameter simulate future fine-tuning during pruning, outperforming importance- and error-based alternatives across DiTs, MARs, and SiTs.</div></details>
+            </div>
+          </div>
+        </article>
 
-    </div>
+        <article class="publication">
+          <a class="paper-visual" href="https://dl.acm.org/doi/10.1145/3636534.3696216" target="_blank" rel="noreferrer" aria-label="Read the PixelGen paper">
+            <span class="venue-badge">IPSN 2024</span>
+            <img src="https://raw.githubusercontent.com/weiserlab/PixelGen/main/assets/banner.png" alt="PixelGen project banner" loading="lazy" decoding="async">
+          </a>
+          <div class="paper-copy">
+            <h3><a href="https://dl.acm.org/doi/10.1145/3636534.3696216" target="_blank" rel="noreferrer">PixelGen: Rethinking Embedded Camera Systems for Mixed-Reality</a></h3>
+            <p class="authors"><strong>Kunjun Li</strong>, Manoj Gulati, Dhairya Shah, Steven Waskito, Shantanu Chakrabarty, Ambuj Varshney</p>
+            <p class="venue-line">ACM/IEEE IPSN 2024 <span class="award">Best Demo Runner-Up</span></p>
+            <p class="paper-summary">A low-power camera system that combines monochrome images with sensor signals and diffusion models to visualize information beyond the visible spectrum.</p>
+            <div class="paper-actions">
+              <a href="https://dl.acm.org/doi/10.1145/3636534.3696216" target="_blank" rel="noreferrer">Paper <span aria-hidden="true">&#8599;</span></a>
+              <a href="https://github.com/weiserlab/PixelGen" target="_blank" rel="noreferrer">Code <span aria-hidden="true">&#8599;</span></a>
+              <details><summary>Abstract</summary><div class="abstract">PixelGen rethinks mixed-reality camera systems by combining energy-efficient monochrome imagery and low-bandwidth sensors with diffusion-based image generation. The result is a richer representation of the environment that can reveal otherwise invisible physical phenomena.</div></details>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="education" aria-labelledby="education-title">
+      <div class="section-heading"><p class="section-index" aria-hidden="true">03</p><h2 id="education-title">Education</h2></div>
+      <div class="education-list">
+        <article class="education-item">
+          <div class="logo-frame"><img src="images/berkeley.png" alt="UC Berkeley seal" loading="lazy"></div>
+          <div class="education-copy"><div class="education-title-row"><h3>University of California, Berkeley</h3><time>2026 &ndash; Present</time></div><p>PhD Student</p><span>Berkeley, California</span></div>
+        </article>
+        <article class="education-item">
+          <div class="logo-frame"><img class="logo-nus" src="images/nus.png" alt="National University of Singapore crest" loading="lazy"></div>
+          <div class="education-copy"><div class="education-title-row"><h3>National University of Singapore</h3><time>2022 &ndash; 2026</time></div><p>Undergraduate Student, with Honors</p><span>Singapore</span></div>
+        </article>
+        <article class="education-item">
+          <div class="logo-frame"><img class="logo-uw" src="images/uw.png" alt="University of Washington logo" loading="lazy"></div>
+          <div class="education-copy"><div class="education-title-row"><h3>University of Washington</h3><time>Mar &ndash; Jun 2025</time></div><p>Exchange Student</p><span>Seattle, Washington</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="section-heading"><p class="section-index" aria-hidden="true">04</p><h2 id="about-title">Beyond Research</h2></div>
+      <div class="about-card">
+        <p>I feel most at home outdoors&mdash;hiking, exploring, and photographing the small moments along the way. I also follow basketball and tennis, and I am always happy to talk about research, sports, or the next trail to try.</p>
+        <a href="mailto:kunjunli@berkeley.edu">Let&rsquo;s connect <span aria-hidden="true">&#8594;</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer shell"><p>&copy; 2026 Kunjun Li</p><a href="#top">Back to top <span aria-hidden="true">&#8593;</span></a></footer>
 </body>
 </html>
