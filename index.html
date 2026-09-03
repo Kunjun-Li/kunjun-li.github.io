@@ -14,7 +14,6 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <nav class="nav shell" aria-label="Primary navigation">
-      <a class="wordmark" href="#top" aria-label="Kunjun Li, home">KL<span>.</span></a>
       <div class="nav-links">
         <a href="#research">Research</a>
         <a href="#education">Education</a>
@@ -25,14 +24,14 @@
   <main id="main" class="shell">
     <section class="hero" id="top" aria-labelledby="page-title">
       <div class="hero-copy">
-        <p class="eyebrow">Hello, I&rsquo;m</p>
         <h1 id="page-title">Kunjun Li</h1>
-        <p class="hero-lede">I am an incoming PhD student at <a href="https://www.berkeley.edu" target="_blank" rel="noreferrer">UC Berkeley</a>, interested in building efficient and scalable generative AI systems.</p>
+        <p class="hero-lede">I am a first-year PhD student at <a href="https://www.berkeley.edu" target="_blank" rel="noreferrer">UC Berkeley</a>, interested in building efficient and scalable AI systems.</p>
         <p>Previously, I graduated with honors from the <a href="https://nus.edu.sg" target="_blank" rel="noreferrer">National University of Singapore</a> and spent a term at the University of Washington as an exchange student.</p>
         <div class="contact-links" aria-label="Contact and profiles">
-          <a class="contact-primary" href="mailto:kunjunli@berkeley.edu">Email me</a>
+          <a class="contact-primary" href="mailto:kunjunli@berkeley.edu">Email</a>
           <a href="https://www.linkedin.com/in/kunjun-li" target="_blank" rel="noreferrer">LinkedIn</a>
           <a href="https://github.com/StargazerX0" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=z8lpsMsAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Scholar</a>
         </div>
       </div>
       <figure class="portrait-wrap">
@@ -54,7 +53,7 @@
 
     <section class="section" id="research" aria-labelledby="research-title">
       <div class="section-heading">
-        <div><h2 id="research-title">Selected Research</h2><p>Efficient models and systems for visual generation.</p></div>
+        <h2 id="research-title">Selected Research</h2>
       </div>
       <div class="publication-list">
         <article class="publication featured">
@@ -63,14 +62,13 @@
             <img src="images/scalekv.png" alt="ScaleKV method overview" loading="lazy" decoding="async">
           </a>
           <div class="paper-copy">
-            <p class="paper-kicker">Representative work</p>
             <h3><a href="https://openreview.net/pdf?id=NFxA2Von7y" target="_blank" rel="noreferrer">Memory-Efficient Visual Autoregressive Modeling with Scale-Aware KV Cache</a></h3>
             <p class="authors"><strong>Kunjun Li</strong>, Zigeng Chen, Cheng-Yen Yang, Jenq-Neng Hwang</p>
             <p class="venue-line">NeurIPS 2025</p>
             <p class="paper-summary">Scale-aware cache management reduces KV memory by 90% without quality loss, making visual autoregressive generation faster and practical at resolutions up to 4K.</p>
             <div class="paper-actions">
-              <a href="https://openreview.net/pdf?id=NFxA2Von7y" target="_blank" rel="noreferrer">Paper <span aria-hidden="true">&#8599;</span></a>
-              <a href="https://github.com/StargazerX0/ScaleKV" target="_blank" rel="noreferrer">Code <span aria-hidden="true">&#8599;</span></a>
+              <a href="https://openreview.net/pdf?id=NFxA2Von7y" target="_blank" rel="noreferrer">Paper</a>
+              <a href="https://github.com/StargazerX0/ScaleKV" target="_blank" rel="noreferrer">Code</a>
               <details><summary>Abstract</summary><div class="abstract">Visual Autoregressive modeling offers efficient, scalable next-scale prediction, but its coarse-to-fine process produces a rapidly growing KV cache. ScaleKV identifies scale-specific drafters and refiners from their distinct attention patterns, then gives each group differentiated cache capacity. On the Infinity model family, it preserves pixel-level fidelity while reducing KV-cache memory to 10% of the original.</div></details>
             </div>
           </div>
@@ -78,18 +76,17 @@
 
         <article class="publication featured">
           <a class="paper-visual" href="https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_TinyFusion_Diffusion_Transformers_Learned_Shallow_CVPR_2025_paper.pdf" target="_blank" rel="noreferrer" aria-label="Read the TinyFusion paper">
-            <span class="venue-badge">CVPR Highlight</span>
+            <span class="venue-badge">CVPR 2025</span>
             <img src="images/tinyfusion.png" alt="TinyFusion framework overview" loading="lazy" decoding="async">
           </a>
           <div class="paper-copy">
-            <p class="paper-kicker">Highlighted paper <span aria-hidden="true">&#183;</span> Top 3%</p>
             <h3><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_TinyFusion_Diffusion_Transformers_Learned_Shallow_CVPR_2025_paper.pdf" target="_blank" rel="noreferrer">TinyFusion: Diffusion Transformers Learned Shallow</a></h3>
             <p class="authors">Gongfan Fang<sup>*</sup>, <strong>Kunjun Li<sup>*</sup></strong>, Xinyin Ma, Xinchao Wang <span class="equal-note">(co-first author)</span></p>
-            <p class="venue-line">CVPR 2025 Highlight</p>
+            <p class="venue-line">CVPR 2025 Highlight <span class="rank-note">(Top 3%)</span></p>
             <p class="paper-summary">An end-to-end learnable depth-pruning framework that halves Diffusion Transformer depth and parameters, delivering 2&times; faster inference at only 7% of the original training cost.</p>
             <div class="paper-actions">
-              <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_TinyFusion_Diffusion_Transformers_Learned_Shallow_CVPR_2025_paper.pdf" target="_blank" rel="noreferrer">Paper <span aria-hidden="true">&#8599;</span></a>
-              <a href="https://github.com/VainF/TinyFusion" target="_blank" rel="noreferrer">Code <span aria-hidden="true">&#8599;</span></a>
+              <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_TinyFusion_Diffusion_Transformers_Learned_Shallow_CVPR_2025_paper.pdf" target="_blank" rel="noreferrer">Paper</a>
+              <a href="https://github.com/VainF/TinyFusion" target="_blank" rel="noreferrer">Code</a>
               <details><summary>Abstract</summary><div class="abstract">TinyFusion learns which Diffusion Transformer layers to remove by optimizing a pruned model for recoverability after fine-tuning. Differentiable sampling and a co-optimized parameter simulate future fine-tuning during pruning, outperforming importance- and error-based alternatives across DiTs, MARs, and SiTs.</div></details>
             </div>
           </div>
@@ -106,8 +103,8 @@
             <p class="venue-line">ACM/IEEE IPSN 2024 <span class="award">Best Demo Runner-Up</span></p>
             <p class="paper-summary">A low-power camera system that combines monochrome images with sensor signals and diffusion models to visualize information beyond the visible spectrum.</p>
             <div class="paper-actions">
-              <a href="https://dl.acm.org/doi/10.1145/3636534.3696216" target="_blank" rel="noreferrer">Paper <span aria-hidden="true">&#8599;</span></a>
-              <a href="https://github.com/weiserlab/PixelGen" target="_blank" rel="noreferrer">Code <span aria-hidden="true">&#8599;</span></a>
+              <a href="https://dl.acm.org/doi/10.1145/3636534.3696216" target="_blank" rel="noreferrer">Paper</a>
+              <a href="https://github.com/weiserlab/PixelGen" target="_blank" rel="noreferrer">Code</a>
               <details><summary>Abstract</summary><div class="abstract">PixelGen rethinks mixed-reality camera systems by combining energy-efficient monochrome imagery and low-bandwidth sensors with diffusion-based image generation. The result is a richer representation of the environment that can reveal otherwise invisible physical phenomena.</div></details>
             </div>
           </div>
@@ -120,15 +117,15 @@
       <div class="education-list">
         <article class="education-item">
           <div class="logo-frame"><img src="images/berkeley.png" alt="UC Berkeley seal" loading="lazy"></div>
-          <div class="education-copy"><div class="education-title-row"><h3>University of California, Berkeley</h3><time>2026 &ndash; Present</time></div><p>PhD Student</p><span>Berkeley, California</span></div>
+          <div class="education-copy"><div class="education-title-row"><h3>University of California, Berkeley</h3><time>2026 &ndash; Present</time></div><p>Ph.D. in Computer Science</p><span>Berkeley, California</span></div>
         </article>
         <article class="education-item">
           <div class="logo-frame"><img class="logo-nus" src="images/nus.png" alt="National University of Singapore crest" loading="lazy"></div>
-          <div class="education-copy"><div class="education-title-row"><h3>National University of Singapore</h3><time>2022 &ndash; 2026</time></div><p>Undergraduate Student, with Honors</p><span>Singapore</span></div>
+          <div class="education-copy"><div class="education-title-row"><h3>National University of Singapore</h3><time>2022 &ndash; 2026</time></div><p>B.S. in Computer Engineering</p><span>Singapore</span></div>
         </article>
         <article class="education-item">
           <div class="logo-frame"><img class="logo-uw" src="images/uw.png" alt="University of Washington logo" loading="lazy"></div>
-          <div class="education-copy"><div class="education-title-row"><h3>University of Washington</h3><time>Mar &ndash; Jun 2025</time></div><p>Exchange Student</p><span>Seattle, Washington</span></div>
+          <div class="education-copy"><div class="education-title-row"><h3>University of Washington</h3><time>Spring 2025</time></div><p>Exchange Student</p><span>Seattle, Washington</span></div>
         </article>
       </div>
     </section>
@@ -142,6 +139,6 @@
     </section>
   </main>
 
-  <footer class="site-footer shell"><p>&copy; 2026 Kunjun Li</p><a href="#top">Back to top <span aria-hidden="true">&#8593;</span></a></footer>
+  <footer class="site-footer shell"><p>&copy; 2026 Kunjun Li</p><a href="#top">Back to top</a></footer>
 </body>
 </html>
