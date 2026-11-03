@@ -3,7 +3,7 @@
   --text: #465166;
   --muted: #7a8495;
   --blue: #1769c2;
-  --blue-soft: #f2f7fd;
+  --row-alt: #f5f5f5;
   --line: #e5e9ef;
   color-scheme: light;
 }
@@ -53,7 +53,7 @@ h1 { margin: 0 0 18px; font-size: 32px; font-weight: 400; letter-spacing: -0.015
   width: 240px;
   height: auto;
   aspect-ratio: auto;
-  border-radius: 12px;
+  border-radius: 50%;
 }
 
 .section { padding: 28px 0; }
@@ -71,36 +71,29 @@ h1 { margin: 0 0 18px; font-size: 32px; font-weight: 400; letter-spacing: -0.015
 .publication-list { display: grid; }
 .publication {
   display: grid;
-  grid-template-columns: 230px minmax(0, 1fr);
+  grid-template-columns: 280px minmax(0, 1fr);
   gap: 30px;
   align-items: start;
-  padding: 30px 0;
+  margin: 0 -18px;
+  padding: 28px 18px;
   border-bottom: 0;
 }
-.publication:first-child { padding-top: 0; }
-.publication.featured { margin: 0 -18px; padding: 24px 18px; border: 0; border-left: 3px solid #7aaee7; background: var(--blue-soft); }
-.publication.featured + .publication.featured { margin-top: 18px; }
-.paper-visual { position: relative; display: grid; min-height: 145px; overflow: hidden; place-items: center; border: 1px solid var(--line); border-radius: 7px; background: #fff; }
-.paper-visual img { display: block; width: 100%; height: 145px; object-fit: contain; }
-.venue-badge { position: absolute; z-index: 2; top: 8px; left: 8px; padding: 3px 7px; border-radius: 4px; background: rgba(18, 82, 151, 0.92); color: #fff; font-size: 9px; font-weight: 700; letter-spacing: 0.02em; }
+.publication:nth-child(odd) { background: var(--row-alt); }
+.paper-visual { position: relative; display: block; align-self: center; overflow: hidden; border-radius: 4px; }
+.paper-visual img { display: block; width: auto; max-width: 100%; height: auto; max-height: 150px; margin: 0 auto; }
 .paper-copy { min-width: 0; }
 .paper-copy h3 { margin: 0 0 8px; font-size: 18px; font-weight: 650; letter-spacing: -0.015em; line-height: 1.35; }
-.paper-copy h3 a { color: var(--blue); text-decoration: none; }
-.authors, .venue-line, .paper-summary { margin: 0; }
+.paper-copy h3 a { color: var(--ink); text-decoration: none; }
+.authors, .venue-line { margin: 0; }
 .authors { color: var(--text); font-size: 13px; line-height: 1.5; }
 .authors strong { color: var(--ink); }
 .authors sup { font-size: 8px; }
-.equal-note { color: var(--muted); font-style: italic; }
-.venue-line { margin-top: 5px; color: #315e91; font-size: 12px; font-weight: 650; }
+.venue-line { margin-top: 5px; color: var(--ink); font-size: 12px; font-weight: 400; }
+.venue-line.accepted { font-weight: 650; }
 .rank-note { color: inherit; font-weight: inherit; }
-.award { margin-left: 4px; color: var(--blue); }
-.paper-summary { margin-top: 10px; color: #647083; font-size: 13px; line-height: 1.55; }
+.award { margin-left: 4px; color: inherit; }
 .paper-actions { display: flex; flex-wrap: wrap; gap: 6px 15px; margin-top: 12px; font-size: 12px; font-weight: 650; }
-.paper-actions > a, .paper-actions summary { text-decoration: none; }
-.paper-actions details { display: contents; }
-.paper-actions summary { width: max-content; color: var(--blue); cursor: pointer; list-style: none; }
-.paper-actions summary::-webkit-details-marker { display: none; }
-.abstract { flex-basis: 100%; margin-top: 3px; padding: 10px 12px; border-left: 2px solid #9bc0e9; color: #647083; font-size: 12px; font-weight: 400; line-height: 1.6; }
+.paper-actions > a { text-decoration: none; }
 
 .education-list { display: grid; }
 .education-item { display: grid; grid-template-columns: 84px 1fr; gap: 25px; align-items: center; padding: 21px 0; border-bottom: 0; }
@@ -137,7 +130,7 @@ h1 { margin: 0 0 18px; font-size: 32px; font-weight: 400; letter-spacing: -0.015
   h1 { font-size: 30px; }
   .section { padding: 28px 0; }
   .news-list li { grid-template-columns: 80px 1fr; gap: 10px; }
-  .publication.featured { margin-inline: -8px; padding-inline: 12px; }
+  .publication { margin-inline: -8px; padding-inline: 12px; }
   .education-item { grid-template-columns: 64px 1fr; gap: 14px; }
   .logo-frame { width: 64px; height: 60px; }
   .logo-frame img, .logo-frame .logo-nus { width: 55px; height: 55px; }
